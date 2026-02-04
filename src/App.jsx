@@ -12,6 +12,7 @@ import { useAuth } from "./authContext";
 export const serverUrl = "https://vercel-backend-six-dun.vercel.app";
 const App = () => {
   const { user } = useAuth();
+  console.log(serverUrl)
 
   return (
     <>
