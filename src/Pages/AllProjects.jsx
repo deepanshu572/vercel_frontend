@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import ProjectBox from "../components/ProjectBox";
-import SideNav from "../components/sideNav";
 import { serverUrl } from "../App";
 import axios from "axios";
 import { useState } from "react";

@@ -1,5 +1,4 @@
 import React from "react";
-import SideNav from "../components/sideNav";
 import { serverUrl } from "../App";
 import axios from "axios";
 import { useState } from "react";
