@@ -9,7 +9,7 @@ import ViewProject from "./Pages/ViewProject";
 
 import ProtectRoute from "./ProtectRoute.jsx";
 import { useAuth } from "./authContext";
-export const serverUrl = "https://vercel-backend-six-dun.vercel.app/";
+export const serverUrl = "https://vercel-backend-six-dun.vercel.app";
 const App = () => {
   const { user } = useAuth();
 
